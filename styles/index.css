@@ -1,0 +1,144 @@
+/*==========================nav==========================*/
+#nav{
+    height: 30px;
+    width: 1000px;
+    line-height: 30px;
+    margin: auto;
+    padding: auto;
+    color:antiquewhite;
+}
+#nav a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+#nav a:hover{
+    color:coral;
+}
+#nav span{
+    float: right;
+}
+header{
+    height: auto;
+    background-color: green;
+}
+
+/*==========================logo==========================*/
+#logo{
+    width:1000px;
+    height: 70px;
+    margin: auto;
+}
+
+.logo_left{
+    float: left;
+    width: 250px;
+    height: 70px;
+}
+
+.logo_center{ 
+    float:left; 
+    width: auto; 
+    height:70px;
+    margin-left: 80px;
+}
+.search{ 
+    margin-top:13px; 
+    height:29px;
+}
+.search_text{ 
+    float:left; 
+    width:auto; 
+    padding-left:20px; 
+    margin-top:3px;
+}
+.input_text{ 
+    width: 290px; 
+    height:23px; 
+    font-size:12px; 
+    color:black; 
+    line-height:23px;
+}
+.search_btn{
+    height: 29px;
+}
+.hottext{ 
+    color:rgb(200, 200, 200); 
+    font-size:12px; 
+    line-height:24px;
+    padding-left:20px; 
+}
+.hottext a{ 
+    color:rgb(200, 200, 200);
+}
+
+.logo_right{ 
+    float:right; 
+    width:auto; 
+    height:70px;
+}
+
+
+/*==========================banner_top==========================*/
+#banner{
+    width:1000px;
+    margin: auto;
+    display: flex;
+}
+.content1{
+    height: 500px;
+    width: 12%;
+    display:inline;
+    float:left;
+    border:3px solid green;
+}
+.c_head{
+    padding:0px;
+    list-style-type: none;
+    height: 42px;
+    padding-left:40px;
+    vertical-align: middle;
+    line-height: 42px;
+    color: white;
+    font-size: 13px;
+    background-color: green;
+}
+.c_body{
+    padding:0px;
+}
+.c_item{
+    list-style-type: none;
+    height: 42px;
+    padding-left:40px;
+    vertical-align: middle;
+    line-height: 42px;
+    color: green;
+    font-size: 13px;
+}
+.c_item:hover{
+    background:#FF7600;
+    cursor:pointer
+}
+.b_center{
+    margin-left: 10px;
+    width: auto;
+}
+
+.nb1{
+    float: left;
+    margin-left:50px;
+}
+
+
+
+/*==========================footer==========================*/
+.message a{
+    color: #000;
+    text-decoration: none;
+}
+footer{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.message a:hover{
+    color:coral;
+}
